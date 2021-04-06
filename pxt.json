@@ -6,11 +6,14 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "makerobot": "github:zhuning239/makerobot"
+        "makerobot": "github:zhuning239/makerobot",
+        "microphone": "*"
     },
     "files": [
         "README.md",
-        "Dbit.ts"
+        "Dbit.ts",
+        "main.py",
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"

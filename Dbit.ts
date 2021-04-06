@@ -760,7 +760,30 @@ namespace Radio_Robot {
         //% blockId="turn_right" block="右转"
         turn_right = 3,
     }
-
+    /**
+     * Get Action Name
+     */
+    //% blockId=radio_action_name 
+    //% block="行动名字：%action"
+    //% weight=50 blockGap=20
+    export function GetActionName(action: Radio_Robot.action_name):string
+    {
+        if(action==0)
+        {
+            return "前进"
+        }else if(action==1)
+        {
+            return "后退"
+        }else if (action==2)
+        {
+            return "左转"
+        } 
+        else if(action==3)
+        {
+            return "右转"
+        }
+        return "Error"
+    }
     /**
      * Do an action step times in speed.
      * @param speed ; eg: 50
