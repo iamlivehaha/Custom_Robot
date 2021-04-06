@@ -766,11 +766,12 @@ namespace Radio_Robot {
      * @param step ; eg: 1
      * @param speed ; eg: 50
      */
-    //% blockId=radio_send_action block="%action=sloth_actions|一步 %speed|速度"
+    //% blockId=radio_send_action 
+    //% block="发送信息：%action|一步 %speed|速度"
     //% weight=98 blockGap=50
     //% speed.min=1 speed.max=100
     export function do_action(action: string, speed: number = 50): void {
-        radio.sendValue(action, 0)
+        radio.sendValue(action, speed)
         // stand_still()
     }     
 }
