@@ -769,7 +769,7 @@ namespace Radio_Robot {
     //% block="发送信息：%action|一步 %speed|速度"
     //% weight=100 blockGap=50
     //% speed.min=1 speed.max=100
-    export function do_action(action: string, speed: number = 50): void {
+    export function do_action(action: Radio_Robot.action_name, speed: number = 50): void {
         radio.sendValue(action, speed)
         // stand_still()
     }     
