@@ -752,13 +752,13 @@ namespace sloth {
 namespace Radio_Robot {
     export enum action_name {
         //% blockId="walk" block="前进"
-        walk = "walk",
+        walk = 0,
         //% blockId="walk_backward" block="后退"
-        walk_backward = "walk_backward",
+        walk_backward = 1,
         //% blockId="turn_left" block="左转"
-        turn_left = "turn_left",
+        turn_left = 2,
         //% blockId="turn_right" block="右转"
-        turn_right = "turn_right",
+        turn_right = 3,
     }
 
     /**
@@ -770,7 +770,21 @@ namespace Radio_Robot {
     //% weight=100 blockGap=50
     //% speed.min=1 speed.max=100
     export function do_action(action: Radio_Robot.action_name, speed: number = 50): void {
-        radio.sendValue(action, speed)
+        if(action==0)
+        {
+            radio.sendValue("前进", speed)
+        }else if(action==1)
+        {
+            radio.sendValue("后退", speed)
+        }else if (action==2)
+        {
+            radio.sendValue("左转", speed)
+        } 
+        else if(action==3)
+        {
+            radio.sendValue("右转", speed)
+        }
+
         // stand_still()
     }     
 }
