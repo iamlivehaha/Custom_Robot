@@ -759,6 +759,10 @@ namespace Radio_Robot {
         turn_left = 2,
         //% blockId="turn_right" block="右转"
         turn_right = 3,
+        //% blockId="turn_left" block="左拳"
+        left_punch = 4,
+        //% blockId="turn_right" block="右拳"
+        right_punch = 5,        
     }
     /**
      * Get Action Name
@@ -781,7 +785,15 @@ namespace Radio_Robot {
         else if(action==3)
         {
             return "右转"
+        }else if(action==4)
+        {
+            return "左拳"
+        }else if(action==5)
+        {
+            return "右拳"
         }
+        
+        
         return "Error"
     }
     /**
@@ -806,6 +818,12 @@ namespace Radio_Robot {
         else if(action==3)
         {
             radio.sendValue("右转", speed)
+        }else if(action==4)
+        {
+            radio.sendValue("左拳", speed)
+        }else if(action==5)
+        {
+            radio.sendValue("右拳", speed)
         }
 
         // stand_still()
