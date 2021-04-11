@@ -12,6 +12,10 @@ namespace sloth {
         Left_Foot = 10,
         //% blockId="Left_leg" block="左侧腿"
         Left_Leg = 11,
+        //% blockId="Left_Arm" block="左臂"
+        Left_Arm = 12,
+        //% blockId="Right_Arm" block="右臂"
+        Right_Arm = 13,                
         CH1 = 0,
         CH2 = 1,
         CH3 = 2,
