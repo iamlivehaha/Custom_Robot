@@ -15,7 +15,11 @@ namespace sloth {
         //% blockId="Left_Arm" block="左臂"
         Left_Arm = 12,
         //% blockId="Right_Arm" block="右臂"
-        Right_Arm = 13,                
+        Right_Arm = 13,   
+        //% blockId="Left_ForeArm" block="左前臂"
+        Left_ForeArm = 14,
+        //% blockId="Right_ForeArm" block="右前臂"
+        Right_ForeArm = 15,                
         CH1 = 0,
         CH2 = 1,
         CH3 = 2,
