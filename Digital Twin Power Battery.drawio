@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T16:10:27.395Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="yTCfF5omd0qAD7Agoaxw" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-02T16:48:49.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cMZs-yrUD2sKsZ9cjS1B" version="21.1.2" type="github">
   <diagram name="第 1 页" id="kRsDdAJmcFYVDiyYqfov">
     <mxGraphModel dx="2074" dy="2285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -606,8 +606,14 @@
         <mxCell id="HHfVAxRJ97_gboiNGHZT-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1490" y="-870" width="380" height="236.25" as="geometry" />
         </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-19" target="HHfVAxRJ97_gboiNGHZT-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HHfVAxRJ97_gboiNGHZT-19" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;活性材料&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1540" y="-816.5600000000001" width="36" height="98.75" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-20" target="HHfVAxRJ97_gboiNGHZT-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HHfVAxRJ97_gboiNGHZT-20" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;粒子结构&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1646" y="-816.5600000000001" width="36" height="98.75" as="geometry" />
@@ -621,14 +627,109 @@
         <mxCell id="HHfVAxRJ97_gboiNGHZT-25" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;云端模拟优化&lt;br&gt;得到实例&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2120" y="-796.24" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HHfVAxRJ97_gboiNGHZT-27" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;单体孪生模型&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1995" y="-614" width="110" height="30" as="geometry" />
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-27" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;电池设计阶段数据模型集成&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1942.5" y="-614" width="215" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HHfVAxRJ97_gboiNGHZT-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;数据交换&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1880" y="-782.1800000000001" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HHfVAxRJ97_gboiNGHZT-32" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;实验数据&lt;br&gt;反馈修正&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2135" y="-730" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="-500" width="1260" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-35" target="HHfVAxRJ97_gboiNGHZT-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="-420" width="380" height="236.25" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-37" target="HHfVAxRJ97_gboiNGHZT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-37" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;电池单体DTP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2284" y="-370.62" width="36" height="98.75" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-39" target="HHfVAxRJ97_gboiNGHZT-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-39" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;电池组件DTP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="-370.62" width="36" height="98.75" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-40" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;电池系统DTP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="-374.67999999999995" width="50" height="106.87" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-41" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;电池制造流程DTP&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="-420" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-43" target="HHfVAxRJ97_gboiNGHZT-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-43" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;生产数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2256" y="-252.5" width="92" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-45" target="HHfVAxRJ97_gboiNGHZT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-45" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;制造数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2362" y="-252.5" width="92" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-47" target="HHfVAxRJ97_gboiNGHZT-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-47" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;出厂数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2479" y="-252.5" width="92" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-50" target="HHfVAxRJ97_gboiNGHZT-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-50" target="HHfVAxRJ97_gboiNGHZT-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160" y="-279" />
+              <mxPoint x="2160" y="-279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-50" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;电池制造流程DTI&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="-352.5" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-52" target="HHfVAxRJ97_gboiNGHZT-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="-420" width="380" height="236.25" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-53" target="HHfVAxRJ97_gboiNGHZT-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-53" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;单体制造&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="-366.56000000000006" width="36" height="98.75" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHfVAxRJ97_gboiNGHZT-54" target="HHfVAxRJ97_gboiNGHZT-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-54" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;电池组装&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1646" y="-366.56000000000006" width="36" height="98.75" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-55" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;打包成车&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1756" y="-366.56" width="34" height="97.49" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-56" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;动力电池实体&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="-420" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-57" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;云端模拟优化&lt;br&gt;得到实例&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-346.24" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-58" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;电池制造阶段数据模型集成&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1942.5" y="-160" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-59" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;数据交换&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="-332.18000000000006" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HHfVAxRJ97_gboiNGHZT-60" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;实验数据&lt;br&gt;反馈修正&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2135" y="-280" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
